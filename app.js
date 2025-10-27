@@ -139,7 +139,7 @@ async function gerarPerguntasContinuacaoLocal({ baseText, mensagem }) {
 app.use(express.json());
 app.use(
   cors({
-    origin: process.env.FRONT_URL || "http://localhost:5173",
+    origin: process.env.FRONT_URL || "https://neurocom.netlify.app/login",
     credentials: true
   })
 );
